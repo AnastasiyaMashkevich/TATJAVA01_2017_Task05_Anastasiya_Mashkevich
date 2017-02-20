@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xsd:schema
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.epamrd.org/menu"
+        xmlns:tns="http://www.epamrd.org/menu"
+        elementFormDefault="qualified">
+    <xsd:element name="All-Menu" type="tns:MenuType"/>
+    <xsd:complexType name="MenuType">
+        <xsd:sequence>
+            <xsd:element name="Menu" type="tns:CategoryofMenuType" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="CategoryofMenuType">
+        <xsd:sequence>
+            <xsd:element name="NameOfMenu" type="tns:NameCategoryType"/>
+            <xsd:element name="Dish" type="tns:DishType" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="ID" type="xsd:positiveInteger"/>
+    </xsd:complexType>
+    <xsd:complexType name="DishType">
+        <xsd:sequence>
+            <xsd:element name="Foto" type="xsd:string"/>
+            <xsd:element name="Title" type="xsd:string"/>
+            <xsd:element name="Description" type="xsd:string"/>
+            <xsd:element name="Portion" type="xsd:string"/>
+            <xsd:element name="Price" type="xsd:nonNegativeInteger" default="0"/>
+        </xsd:sequence>
+        <xsd:attribute name="ID" type="xsd:positiveInteger"/>
+    </xsd:complexType>
+    <xsd:simpleType name="NameCategoryType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Холодные закуски"/>
+            <xsd:enumeration value="Горячие закуски"/>
+            <xsd:enumeration value="Завтраки"/>
+            <xsd:enumeration value="Салаты"/>
+            <xsd:enumeration value="Супы"/>
+            <xsd:enumeration value="Рыбные блюда"/>
+            <xsd:enumeration value="Мясные блюда"/>
+            <xsd:enumeration value="Гарниры"/>
+            <xsd:enumeration value="Блюда на мангале"/>
+            <xsd:enumeration value="От шеф-повара"/>
+            <xsd:enumeration value="Приложение"/>
+            <xsd:enumeration value="Десерт"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>
+

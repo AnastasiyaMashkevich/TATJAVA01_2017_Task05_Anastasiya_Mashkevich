@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mn:All-Menu xmlns:mn="http://www.epamrd.org/menu"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.epamrd.org/menu menu.xsd">
+    <mn:Menu ID="1">
+        <mn:NameOfMenu>Холодные закуски</mn:NameOfMenu>
+        <mn:Dish ID="01">
+            <mn:Foto>yes</mn:Foto>
+            <mn:Title>Ассорти рыбное</mn:Title>
+            <mn:Description>Слабосоленая форель,семга</mn:Description>
+            <mn:Portion>100/20/15 грамм</mn:Portion>
+            <mn:Price></mn:Price>
+        </mn:Dish>
+    </mn:Menu>
+    <mn:Menu ID="1">
+        <mn:NameOfMenu>Холодные закуски</mn:NameOfMenu>
+        <mn:Dish ID="02">
+            <mn:Foto>yes</mn:Foto>
+            <mn:Title>Тарталетки с красной икрой</mn:Title>
+            <mn:Description>Тарталетки с красной икрой</mn:Description>
+            <mn:Portion>60/50 грамм</mn:Portion>
+            <mn:Price></mn:Price>
+        </mn:Dish>
+    </mn:Menu>
+    <mn:Menu ID="1">
+        <mn:NameOfMenu>Холодные закуски</mn:NameOfMenu>
+        <mn:Dish ID="03">
+            <mn:Foto>yes</mn:Foto>
+            <mn:Title>Закуска по-русски</mn:Title>
+            <mn:Description>Кусочки атлантической селедки с отварным картофелем,луком,лимоном и зеленью</mn:Description>
+            <mn:Portion>70/50/2/10 грамм</mn:Portion>
+            <mn:Price>150</mn:Price>
+        </mn:Dish>
+    </mn:Menu>
+    <mn:Menu ID="2">
+        <mn:NameOfMenu>Горячие закуски</mn:NameOfMenu>
+        <mn:Dish ID="04">
+            <mn:Foto>yes</mn:Foto>
+            <mn:Title>Лобио с шампиньонами</mn:Title>
+            <mn:Description>Фасоль с шампиньонами и грецким орехом</mn:Description>
+            <mn:Portion>150/2 грамм</mn:Portion>
+            <mn:Price></mn:Price>
+        </mn:Dish>
+    </mn:Menu>
+    <mn:Menu ID="2">
+        <mn:NameOfMenu>Горячие закуски</mn:NameOfMenu>
+        <mn:Dish ID="05">
+            <mn:Foto>yes</mn:Foto>
+            <mn:Title>Жульен</mn:Title>
+            <mn:Description>С курицей</mn:Description>
+            <mn:Portion>120*1 грамм</mn:Portion>
+            <mn:Price>145</mn:Price>
+        </mn:Dish>
+    </mn:Menu>
+    <mn:Menu ID="2">
+        <mn:NameOfMenu>Горячие закуски</mn:NameOfMenu>
+        <mn:Dish ID="06">
+            <mn:Foto>yes</mn:Foto>
+            <mn:Title>Ахтамар мясной</mn:Title>
+            <mn:Description>Колбаса, ветчина,буженина,сыр,запеченные на мангале в лаваше </mn:Description>
+            <mn:Portion>1 шт.</mn:Portion>
+            <mn:Price>150</mn:Price>
+        </mn:Dish>
+    </mn:Menu>
+    <mn:Menu ID="3">
+        <mn:NameOfMenu>Завтраки</mn:NameOfMenu>
+        <mn:Dish ID="07">
+            <mn:Foto>yes</mn:Foto>
+            <mn:Title>Глазунья</mn:Title>
+            <mn:Description>2 яйца(на выбо:ветчина,сыр,помидоры) </mn:Description>
+            <mn:Portion>150 грамм</mn:Portion>
+            <mn:Price>95</mn:Price>
+        </mn:Dish>
+    </mn:Menu>
+    <mn:Menu ID="3">
+        <mn:NameOfMenu>Завтраки</mn:NameOfMenu>
+        <mn:Dish ID="08">
+            <mn:Foto>yes</mn:Foto>
+            <mn:Title>Омлет</mn:Title>
+            <mn:Description>Омлет </mn:Description>
+            <mn:Portion>100 грамм</mn:Portion>
+            <mn:Price>70</mn:Price>
+        </mn:Dish>
+    </mn:Menu>
+    <mn:Menu ID="3">
+        <mn:NameOfMenu>Завтраки</mn:NameOfMenu>
+        <mn:Dish ID="09">
+            <mn:Foto>yes</mn:Foto>
+            <mn:Title>Блинчики с мясом</mn:Title>
+            <mn:Description>Жаренные блинчики с мясом</mn:Description>
+            <mn:Portion>150 грамм</mn:Portion>
+            <mn:Price>150</mn:Price>
+        </mn:Dish>
+    </mn:Menu>
+
+</mn:All-Menu>
