@@ -21,7 +21,7 @@ public class StAXMenuParser {
     public static void main(String[] args) throws FileNotFoundException {
         XMLInputFactory inputFactory = XMLInputFactory.newInstance();
         try {
-            InputStream input = new FileInputStream("bean.xml");
+            InputStream input = new FileInputStream("menu.xml");
             XMLStreamReader reader = inputFactory.createXMLStreamReader(input);
             List<Menu> listOfMenu = process(reader);
             //System.out.println(listOfMenu.size());
