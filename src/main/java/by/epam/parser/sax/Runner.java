@@ -18,7 +18,7 @@ public class Runner {
         XMLReader reader = XMLReaderFactory.createXMLReader();
         MenuSaxHandler handler = new MenuSaxHandler();
         reader.setContentHandler(handler);
-        reader.parse(new InputSource("bean.xml"));
+        reader.parse(new InputSource("menu.xml"));
         List<Menu> menu = handler.getMenuList();
         
     }
