@@ -19,7 +19,7 @@ public class Runner {
     public static void main (String [] arg) {
         DOMParser parser = new DOMParser();
         try {
-            parser.parse("bean.xml");
+            parser.parse("menu.xml");
         } catch (org.xml.sax.SAXException e){
             log.error("SAXException");
         } catch ( IOException e) {
