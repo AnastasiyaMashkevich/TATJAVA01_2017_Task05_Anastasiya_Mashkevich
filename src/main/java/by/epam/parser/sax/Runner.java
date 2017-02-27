@@ -20,6 +20,6 @@ public class Runner {
         reader.setContentHandler(handler);
         reader.parse(new InputSource("bean.xml"));
         List<Menu> menu = handler.getMenuList();
-        //System.out.println(bean.size());
+        
     }
 }
